@@ -5,7 +5,7 @@
 //paragrafo.innerHTML = 'Digite um número de 1 a 10';
 
 let listaNumerosSorteados = [];
-let numeroMaximo = 10;
+let numeroMaximo = 100;
 let numeroSecreto = gerarNumeroAleatorio(); 
 let tentativas = 1;
 
@@ -17,7 +17,7 @@ function exibirTextoHTML(tag, texto){
 
 function exibirTextoInicial() {
     exibirTextoHTML('h1', 'Jogo do número secreto');
-    exibirTextoHTML('p', 'Digite um número de 1 a 10');
+    exibirTextoHTML('p', 'Digite um número de 1 a 100');
 }
 
 exibirTextoInicial();
